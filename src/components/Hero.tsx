@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 const products = [
   {
@@ -60,7 +60,7 @@ const Hero = () => {
         <div className="scroll-wrapper top-[11rem] md:top-[-1rem] lg:top-[-2rem]">
           <div ref={scrollRef} className="scroll-container animate-scroll">
             {[...Array(4)].map((_, parentIndex) => (
-              <>
+              <React.Fragment key={parentIndex}>
                 {products.map(({ imageUrl, price, description }, index) => (
                   <div
                     key={parentIndex + index}
@@ -83,7 +83,7 @@ const Hero = () => {
                     </div>
                   </div>
                 ))}
-              </>
+              </React.Fragment>
             ))}
           </div>
         </div>
