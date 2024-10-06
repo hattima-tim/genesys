@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Act of Rejection";
+  src: local("Act of Rejection"), url("src/assets/fonts/Act_Of_Rejection.ttf");
+  font-weight: 400;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-1 * var(--scroll-width) / 2));
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.scroll-container {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  animation: scroll 25s linear infinite;
+}
+
+.scroll-wrapper {
+  overflow-x: hidden;
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
