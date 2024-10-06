@@ -42,7 +42,7 @@ const ProductShowCase = () => {
           >
             <img
               className="max-w-full rounded-lg transform hover:scale-105 transition-transform duration-300 ease-in-out"
-              src={`src/assets/productImages/product${index + 1}.jpeg`}
+              src={`/assets/productImages/product${index + 1}.jpeg`}
             />
             <p className="font-[Inter] font-semibold text-base text-[#060606]">
               Army Green Active Short Sleeve

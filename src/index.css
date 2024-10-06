@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Act of Rejection";
-  src: local("Act of Rejection"), url("src/assets/fonts/Act_Of_Rejection.ttf");
+  src: local("Act of Rejection"), url("/fonts/Act_Of_Rejection.ttf");
   font-weight: 400;
 }
 

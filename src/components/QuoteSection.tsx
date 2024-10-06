@@ -15,7 +15,7 @@ const QuoteSection = () => {
           damping: 15,
         }}
       >
-        <img src="src/assets/quoteSection/quoteIcon.svg" />
+        <img src="/assets/quoteSection/quoteIcon.svg" />
 
         <div className="relative top-[-6rem] flex flex-col gap-3">
           <p className="font-[Montserrat] font-bold text-xl 2xl:text-5xl xl:text-3xl text-white">
@@ -32,7 +32,7 @@ const QuoteSection = () => {
 
       <img
         className="relative bottom-[-2.05rem] sm:bottom-[31rem] w-[9rem] h-[18rem] sm:w-[27rem] sm:h-[40rem] ml-auto transform translate-y-1/2"
-        src="src/assets/quoteSection/randomPerson.png"
+        src="/assets/quoteSection/randomPerson.png"
         alt="Person"
       />
     </div>

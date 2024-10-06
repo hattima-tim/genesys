@@ -35,7 +35,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white p-8 md:p-16">
       <div className="flex flex-col md:flex-row gap-8 pb-3 border-b border-b-[#A6A5A380]">
-        <img className="max-w-28" src="src/assets/logoRed.svg" alt="Logo" />
+        <img className="max-w-28" src="/assets/logoRed.svg" alt="Logo" />
         <h3 className="font-[Montserrat] font-extrabold text-4xl md:text-8xl">
           VTMERCH
         </h3>
@@ -83,14 +83,14 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-3">
-            <img src="src/assets/footer/telephone.svg" />
+            <img src="/assets/footer/telephone.svg" />
             <p className="font-[Inter] font-normal text-sm md:text-base text-[#FFFFFFCC]">
               013456789
             </p>
           </div>
 
           <div className="flex gap-3">
-            <img src="src/assets/footer/email.svg" />
+            <img src="/assets/footer/email.svg" />
             <p className="font-[Inter] font-normal text-sm md:text-base text-[#FFFFFFCC]">
               store@valuetainment.com
             </p>
@@ -98,19 +98,19 @@ const Footer = () => {
 
           <div className="flex gap-3">
             <a href="#">
-              <img src="src/assets/footer/facebook.svg" />
+              <img src="/assets/footer/facebook.svg" />
             </a>
 
             <a href="#">
-              <img src="src/assets/footer/twitter.svg" />
+              <img src="/assets/footer/twitter.svg" />
             </a>
 
             <a href="#">
-              <img src="src/assets/footer/linkedin.svg" />
+              <img src="/assets/footer/linkedin.svg" />
             </a>
 
             <a href="#">
-              <img src="src/assets/footer/instagram.svg" />
+              <img src="/assets/footer/instagram.svg" />
             </a>
           </div>
         </div>
@@ -120,12 +120,12 @@ const Footer = () => {
         <p>© 2024 Valuetainment Store. All rights reserved.</p>
 
         <div className="flex gap-7 mt-4 md:mt-0 flex-wrap">
-          <img src="src/assets/footer/visa.svg" />
-          <img src="src/assets/footer/ipay.svg" />
-          <img src="src/assets/footer/dinnersClub.svg" />
-          <img src="src/assets/footer/amex.svg" />
-          <img src="src/assets/footer/paypal.svg" />
-          <img src="src/assets/footer/aExpress.svg" />
+          <img src="/assets/footer/visa.svg" />
+          <img src="/assets/footer/ipay.svg" />
+          <img src="/assets/footer/dinnersClub.svg" />
+          <img src="/assets/footer/amex.svg" />
+          <img src="/assets/footer/paypal.svg" />
+          <img src="/assets/footer/aExpress.svg" />
         </div>
       </div>
     </footer>
