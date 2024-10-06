@@ -3,25 +3,25 @@ import { useEffect, useRef } from "react";
 const products = [
   {
     index: 0,
-    imageUrl: "src/assets/heroImages/person1.png",
+    imageUrl: "/src/assets/heroImages/person1.png",
     description: "Army Green Active Short Sleeve",
     price: "34.95",
   },
   {
     index: 1,
-    imageUrl: "src/assets/heroImages/person2.png",
+    imageUrl: "/src/assets/heroImages/person2.png",
     description: "Army Green Active Short Sleeve",
     price: "34.95",
   },
   {
     index: 2,
-    imageUrl: "src/assets/heroImages/person3.png",
+    imageUrl: "/src/assets/heroImages/person3.png",
     description: "Army Green Active Short Sleeve",
     price: "34.95",
   },
   {
     index: 3,
-    imageUrl: "src/assets/heroImages/person4.png",
+    imageUrl: "/src/assets/heroImages/person4.png",
     description: "Army Green Active Short Sleeve",
     price: "34.95",
   },
@@ -43,13 +43,13 @@ const Hero = () => {
     <div className="h-screen bg-[#EA2127]">
       <div className="flex justify-between items-start p-4 md:p-8">
         <div className="flex gap-2 items-center">
-          <img src="src/assets/Valuetainment.svg" className="w-24 md:w-36" />
+          <img src="/src/assets/Valuetainment.svg" className="w-24 md:w-36" />
           <h1 className="font-[Montserrat] text-white text-4xl md:text-[80px] lg:text-[112px] leading-[1.2] font-extrabold">
             VTMERCH
           </h1>
         </div>
 
-        <img src="src/assets/HamburgerIcon.svg" className="w-8 md:w-10" />
+        <img src="/src/assets/HamburgerIcon.svg" className="w-8 md:w-10" />
       </div>
 
       <div className="relative mt-8 md:mt-52">
